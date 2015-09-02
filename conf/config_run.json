@@ -1,0 +1,44 @@
+{
+    "dataset": "features",
+    "stop_words": "stop_words",
+    "languages":
+    {
+        "DU": "dutch",
+        "EN": "english",
+        "GR": "greek",
+        "SP": "spanish"
+    },
+    "languages_inv":
+    {
+        "dutch"  : "DU",
+        "english": "EN",
+        "greek"  : "GR",
+        "spanish": "SP"
+    },
+    "features":
+    [
+        "style::single_unique_language_tokens_max",
+        "style::single_unique_language_tokens_min",
+        "style::single_unique_language_tokens_avg"
+    ],
+    "pickle": "conf/pickle",
+    "rf":
+    {
+        "EN":{
+           "criterion": "entropy",
+           "estimators": 1000
+        },
+        "DU":{
+           "criterion": "entropy",
+           "estimators": 1000
+        },
+        "GR":{
+            "criterion": "gini",
+           "estimators": 1000
+        },
+        "SP":{
+            "criterion": "gini",
+           "estimators": 1000
+        }
+    }
+}

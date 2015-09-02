@@ -1,0 +1,48 @@
+CC	;Coordinating conjunction
+CD	;Cardinal number
+DT	;Determiner
+EX	;Existential there
+FW	;Foreign word
+IN	;Preposition or subordinating conjunction
+JJ	;Adjective
+JJR	;Adjective
+JJS	;Adjective
+LS	;List item marker
+MD	;Modal
+NN	;Noun
+NNS	;Noun
+NP	;Noun
+NPS	;Noun
+PDT	;Predeterminer
+POS	;Possessive ending
+PP	;Personal pronoun
+PP$	;Possessive pronoun
+RB	;Adverb
+RBR	;Adverb
+RBS	;Adverb
+RP	;Particle PROBLEMATIC CASES 7
+SYM	;Symbol
+TO	;to
+UH	;Interjection
+VB	;Verb
+VBD	;Verb
+VBG	;Verb
+VBN	;Verb
+VBP	;Verb
+VBZ	;Verb
+VH;verb 
+VHD;verb
+VHG;verb
+VHN;verb
+VHP;verb
+VHZ;verb
+VV;verb
+VVD;verb
+VVG;verb
+VVN;verb
+VVP;verb
+VVZ;verb
+WDT	;Wh-determiner
+WP	;Wh-pronoun
+WP$	;Possessive wh-pronoun
+WRB	;Wh-adverb
